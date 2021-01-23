@@ -1,10 +1,10 @@
-import './App.css';
-import { Summary } from './components/summary/summary.component'
+
+import { ModuleContent } from './components/module-content/module-content.component'
 
 function App() {
   return (
     <div className="App">
-      <Summary></Summary>
+      <ModuleContent></ModuleContent>
     </div>
   );
 }
