@@ -1,5 +1,5 @@
 import './App.css';
-import { Summary } from './components/summary/summary'
+import { Summary } from './components/summary/summary.component'
 
 function App() {
   return (

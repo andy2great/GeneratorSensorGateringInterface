@@ -1,4 +1,4 @@
-import './summary.css'
+import './summary.style.css'
 
 import { DataTables } from 'material-ui-datatables';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'; 
@@ -12,6 +12,7 @@ export const Summary = () => {
     const handleSortOrderChange = (key, order) => {
         // your sort logic
     }
+    
     
     const TABLE_COLUMNS = [
         {
