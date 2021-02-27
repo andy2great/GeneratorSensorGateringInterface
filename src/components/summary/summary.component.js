@@ -11,6 +11,7 @@ import { SENSEURS_TYPE } from "../../constants/senseurs.constants";
 import "./summary.style.css";
 
 export const Summary = (props) => {
+  const [ipToSend, setIpToSend] = useState("");
   const [tableData, setTableData] = useState([]);
   const [chartData, setChartData] = useState([]);
   const [chartOptions, setChartOptions] = useState({});
@@ -199,6 +200,15 @@ export const Summary = (props) => {
         </MuiThemeProvider>
 
         <HighchartsReact highcharts={Highcharts} options={chartOptions} />
+
+        <input onChange={(e) => setIpToSend(e.target.value)}></input>
+        <Button
+          onClick={() => {
+            fetch("http://" + ipToSend).catch((e) => {});
+          }}
+        >
+          Poke!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        </Button>
       </div>
     </div>
   );
