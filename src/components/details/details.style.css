@@ -1,10 +1,10 @@
 .parent {
-    background-color: red;
+  background-color: red;
 }
 
 .parent .enfant {
-    background-color: yellow;
-    width: 50%;
-    text-align: center;
-    margin-left: 231px;
+  background-color: yellow;
+  width: 50%;
+  text-align: center;
+  margin-left: 231px;
 }

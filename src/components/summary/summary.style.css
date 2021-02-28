@@ -1,8 +1,11 @@
 .summary-content {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .summary-title {
-    font-size: 35px;
+  font-size: 35px;
 }
 
+.summary-info {
+  width: 90%;
+}
