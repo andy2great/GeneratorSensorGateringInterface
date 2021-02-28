@@ -205,7 +205,7 @@ export const Summary = (props) => {
             fetch("http://" + ipToSend).catch((e) => {});
           }}
         >
-          Poke!@!@!@!@!@!@!@!@!1
+          Poke MPP
         </Button>
       </div>
     </div>
