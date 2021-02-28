@@ -198,10 +198,9 @@ export const Summary = (props) => {
             showFooterToolbar={false}
           />
         </MuiThemeProvider>
-
         <HighchartsReact highcharts={Highcharts} options={chartOptions} />
-
         <input onChange={(e) => setIpToSend(e.target.value)}></input>
+        yo
         <Button
           onClick={() => {
             fetch("http://" + ipToSend).catch((e) => {});
