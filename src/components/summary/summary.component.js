@@ -199,13 +199,13 @@ export const Summary = (props) => {
           />
         </MuiThemeProvider>
         <HighchartsReact highcharts={Highcharts} options={chartOptions} />
-        <input onChange={(e) => setIpToSend(e.target.value)}></input>y
+        <input onChange={(e) => setIpToSend(e.target.value)}></input>
         <Button
           onClick={() => {
             fetch("http://" + ipToSend).catch((e) => {});
           }}
         >
-          Poke@@@@@@@@@@@@@@@@@@@@@@@
+          Poke!@!@!@!@!@!@!@!@!
         </Button>
       </div>
     </div>
